@@ -61,26 +61,3 @@
 .btn-conta:focus{
     outline: none;
 }
-
-.lista-produtos{
-    width: 100%;
-}
-.prev, .next{
-    position: absolute;
-    background-color: transparent;
-    border: none;
-    color: white;
-    top: 60%;
-}
-.prev, .next:focus{
-    outline: none;
-}
-.prev{
-    left: 5%;
-}
-.next{
- left: 95%;
-}
-.svg-btn-conta{
-    height: 30px;
-}
