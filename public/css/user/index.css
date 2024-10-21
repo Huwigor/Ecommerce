@@ -1,0 +1,86 @@
+.header{
+    width: 100%;
+    padding: 10px;
+}
+.box-tittle{
+    margin-left: 20px;
+}
+.box-tittle h1{
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+}
+.box-buttons{
+    margin-left: 20%;
+    padding: 10px;
+}
+.box-buttons button{
+    color: white;
+    height: 35px;
+    width: 150px;
+    transition: background-color 0.3s ease;
+    background-color: transparent;
+    border: none;
+}
+.box-buttons button:hover{
+    background-color: gray;
+}
+.box-buttons button:focus{
+    outline: none;
+}
+.box-conta{
+    margin-left: 10%;
+    padding: 10px;
+}
+.btn-user{
+    background-color: transparent;
+    height: 35px;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+    width: 150px;
+}
+.btn-user:hover{
+    background-color: gray;
+}
+.box-btn-conta{
+    display: none;
+    position: absolute;
+}
+.btn-conta{
+    background-color: transparent;
+    color: white;
+    height: 30px;
+    border: none;
+    width: 150px;
+    transform: background-color 0.3s ease;
+}
+.btn-conta:hover{
+    background-color: gray;
+}
+.btn-conta:focus{
+    outline: none;
+}
+
+.lista-produtos{
+    width: 100%;
+}
+.prev, .next{
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    color: white;
+    top: 60%;
+}
+.prev, .next:focus{
+    outline: none;
+}
+.prev{
+    left: 5%;
+}
+.next{
+ left: 95%;
+}
+.svg-btn-conta{
+    height: 30px;
+}
