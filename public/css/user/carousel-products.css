@@ -1,6 +1,6 @@
 .box-produtos{
     position: relative;
-    top: 50px;
+    top: 100px;
     min-width: 100%;
     min-height: 500px;
     overflow: hidden;
@@ -41,7 +41,7 @@
     left: 5%;
 }
 .next{
- right: 5%;
+    right: 5%;
 }
 .svg-btn-conta{
     height: 30px;

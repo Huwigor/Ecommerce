@@ -6,21 +6,32 @@ $(document).ready(function(){
 
     function fecharBoxLogin() {
         $('.box-btn-conta').css('display', 'none');
-  }
+    }
+    
+    function abrirBoxUser() {
+        $('.box-btn-user').css('display', 'block');
+    }
 
-  $('.btn-user').on('click', function(event){
-    event.stopPropagation();
-    abrirBoxLogin();
-  });
+    function fecharBoxUser() {
+      $('.box-btn-user').css('display', 'none');
+    }
 
-  $('.btn-user').on('hover', function(event){
-    event.preventDefault();
-    abrirBoxLogin();
-  });
+    $('.btn-user').on('click', function(e){
+      e.stopPropagation();
+      abrirBoxLogin();
+      abrirBoxUser();
+    });
 
-  $(document).on('click', function(event){
-    event.preventDefault();
-    fecharBoxLogin();
-  });
+    $('.btn-user').on('hover', function(c){
+      c.preventDefault();
+      abrirBoxLogin();
+      abrirBoxUser();
+    });
+
+    $(document).on('click', function(b){
+      b.preventDefault();
+      fecharBoxLogin();
+      fecharBoxUser();
+    });
 
 });

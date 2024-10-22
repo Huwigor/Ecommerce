@@ -18,7 +18,7 @@
     color: white;
     height: 35px;
     width: 150px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.5s ease;
     background-color: transparent;
     border: none;
 }
@@ -60,4 +60,26 @@
 }
 .btn-conta:focus{
     outline: none;
+}
+.box-usuario{
+    padding: 10px;
+    margin-left: 10%;
+    position: relative;
+}
+.box-btn-user{
+    width: 200px;
+    display: none;
+    position: absolute;
+    border: 2px solid;
+}
+.btn-func-user{
+    background-color: transparent;
+    margin-top: 5px;
+    border: none;
+    color: white;
+    width: 200px;
+    transition: background-color 0.5s ease;
+}
+.btn-func-user:hover{
+    background-color: gray;
 }

@@ -11,7 +11,7 @@
 <body>
 
     <div class="box-btn-home">
-        <button class="btn-voltar-home" onclick="window.location.href='../index.html'">Voltar para Home</button>
+        <button class="btn-voltar-home" onclick="window.location.href='../index.php'">Voltar para Home</button>
     </div>
 
   <div class="d-flex">
@@ -19,24 +19,24 @@
         <div class="lista-form mx-auto">
             <div class="d-flex form-wrapper mx-auto">
                 <div class="form form-login text-center">
-                    <input type="text" class="inputs" id="usuario" placeholder="Usuario ou Email">
+                    <input type="text" class="inputs" id="usuario" placeholder="Usuario">
                     <br>
                     <input type="password" class="inputs" id="senha" placeholder="Senha">
                     <br>
-                    <button class="btn btn-sm btn-primary mt-4" style="width: 50%;">Entrar</button>
+                    <button class="btn btn-sm btn-primary mt-4" style="width: 50%;" id="btn-login">Entrar</button>
                     <br>
                     <div class="box-btn-choice text-center">
                         <button class="btn-choice criar">Criar Conta</button>
                     </div>
                 </div>
                 <div class="form form-create text-center">
-                    <input type="text" class="inputs" id="Usuario" placeholder="Usuario">
+                    <input type="text" class="inputs" id="usuario-create" placeholder="Usuario">
                     <br>
-                    <input type="password" class="inputs" id="senha" placeholder="Senha">
+                    <input type="password" class="inputs" id="senha-create" placeholder="Senha">
                     <br>
                     <input type="password" class="inputs" id="rept-senha" placeholder="Repita sua senha">
                     <br>
-                    <button class="btn btn-sm btn-primary mt-4" style="width: 50%;">Criar Conta</button>
+                    <button class="btn btn-sm btn-primary mt-4" style="width: 50%;" id="btn-criar-conta">Criar Conta</button>
                     <br>
                     <div class="box-btn-choice text-center">
                         <button class="btn-choice login">Login</button>
@@ -60,6 +60,8 @@
 
     <script src="../../../node_modules/jquery/dist/jquery.min.js"></script>
     <script src="../../js/account/login-create-account.js"></script>
+    <script src="../../js/account/func-create-account.js"></script>
+    <script src="../../js/account/func-login.js"></script>
     
 </body>
 </html>
