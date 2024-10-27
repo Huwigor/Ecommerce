@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'font-tittle-footer';
+    src: url(../../fonts/PlaywriteGBS-Italic-VariableFont_wght.ttf);
+}
+.footer{
+    margin-top: 150px;
+    height: 200px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: linear-gradient(to right, #0a0d15, #0d1323);
+}
+.box-tittle-footer{
+    float: right;
+    position: relative;
+    top: 60%;
+    right: 5%;
+}
+.box-tittle-footer h5{
+   color: white;
+   font-size: 13px;
+   font-family: 'font-tittle-footer';
+}
+.box-logo-footer{
+    position: relative;
+    margin-left: 40%;
+    top: 30%;
+}
+.box-logo-footer h1 {
+    color: white;
+    font-family: 'font-tittle-footer';
+    font-size: 25px;
+}

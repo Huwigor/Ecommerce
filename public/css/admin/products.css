@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'font-tittle-func';
+    src: url(../../fonts/Anton-Regular.ttf);
+}
+.box-products {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    overflow: hidden;
+    background: linear-gradient(to right, #0a0d15, #0d1323);
+    padding: 20px;
+    height: 370px;
+}
+.list-products {
+    width: 80%;
+    display: flex;
+}
+.products {
+    background-color: #f5f5f5;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    height: 320px;
+}
+.products h3{
+    font-size: 15px;
+    font-family: 'font-tittle-func';
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 24px;
+    line-height: 24px;
+}
+.products p {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+button.prev, button.next {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    z-index: 5;
+    cursor: pointer;
+}
+button.prev:disabled, button.next:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+.img-products{
+    height: 200px;
+    width: 90%;
+}
+.box-input-busca{
+    margin-top: 150px;
+    width: 100%;
+    background: linear-gradient(to right, #0a0d15, #0d1323);
+    padding: 10px;
+}
+#campoDeBusca{
+    width: 40%;
+    padding: 5px;
+    background-color: lightgray;
+    color: black;
+}
+#campoDeBusca:focus{
+   outline: none;
+}
+.btn-excluir{
+    margin-left: 30px;
+    width: 100px;
+}

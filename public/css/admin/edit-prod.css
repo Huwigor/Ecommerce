@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'font-tittle-func';
+    src: url(../../fonts/Anton-Regular.ttf);
+}
+.box-edit-prod{
+    min-width: 100%;
+  
+}
+.box-edit-prod h1{
+    color: black;
+    font-family: 'font-tittle-func';
+    font-size: 30px;
+    position: relative;
+    bottom: 70px;   
+}
+.form-edit-prod{
+    border: 2px solid;
+    width: 50%;
+    padding: 20px;
+    background: linear-gradient(to right, #0a0d15, #0d1323);
+    border-radius: 5px;
+}
+.input-edit{
+    margin-top: 15px;
+    padding: 5px;
+    background-color: lightgray;
+    border-radius: 10px;
+    color: black;
+}
+.input-edit::placeholder{
+    color: black;
+}
+#edit-prod, #edit-fornecedor{
+    width: 80%;
+    color: black;
+}
+#edit-img{
+    width: 45%;
+}
+#edit-descricao{
+    margin-top: 15px;
+    padding: 5px;
+    background-color: lightgray;
+    border-radius: 10px;
+    color: black;
+    width: 80%;
+}
+#edit-descricao:focus{
+    outline: none;
+}
+#edit-img{
+    font-size: 12px;
+}
+.input-edit:focus{
+    outline: none;
+}
+.btn-edit{
+    width: 100px;
+}
+.box-input{
+    position: relative;
+    top: 80px;
+    background: linear-gradient(to right, #0a0d15, #0d1323);
+    padding: 10px;
+    width: 50%;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+.btn-busca{
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+#busca{
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 10px;
+    color: black;
+    width: 60%;
+}
+#busca:focus{
+    outline: none;
+}

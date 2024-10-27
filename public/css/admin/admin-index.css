@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'font-tittle';
+    src: url(../../fonts/PlaywriteGBS-Italic-VariableFont_wght.ttf);
+}
+.header{
+    position: fixed;
+    top: 0;
+    z-index: 500;
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to right, #0a0d15, #0d1323);
+}
+.box-tittle{
+    margin-left: 20px;
+}
+.box-tittle h1{
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+    font-family: 'font-tittle';
+}
+.box-buttons{
+    padding: 10px;
+    margin-left: 30%;
+}
+.box-buttons button{
+    color: white;
+    height: 35px;
+    width: 150px;
+    font-size: 12px;
+    transition: background-color 0.5s ease;
+    background-color: transparent;
+    border: none;
+}
+.box-buttons button:hover{
+    background-color: gray;
+}
+.box-buttons button:focus{
+    outline: none;
+}
+.box-conta{
+    padding: 10px;
+    width: 150px;
+    float: right;
+    margin-right: 10%;
+}
+.btn-user{
+    position: relative;
+    background-color: transparent;
+    height: 35px;
+    font-size: 12px;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+    width: 150px;
+}
+.btn-user:hover{
+    background-color: gray;
+}
+.box-btn-conta{
+    display: none;
+    top: 75px;
+    position: absolute;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: linear-gradient(to right, #0a0d15, #0d1323);
+}
+.btn-conta{
+    background-color: transparent;
+    position: relative;
+    color: white;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 30px;
+    border: none;
+    width: 150px;
+    transform: background-color 0.3s ease;
+}
+.btn-conta:hover{
+    background-color: gray;
+}
+.btn-conta:focus{
+    outline: none;
+}
